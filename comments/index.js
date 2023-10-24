@@ -7,11 +7,11 @@ app.use(bodyParser.json());
 
 const posts = {};
 
-app.get('/posts', (req,res) => {
+app.get('/posts/:id/comments', (req,res) => {
     res.send(posts)
 });
 
-app.post('/posts', (req,res) => {
+app.post('/posts/:id/comments', (req,res) => {
     console.log('A post!')
     const id = randomBytes(4).toString('hex');
     const {title} = req.body;
@@ -21,6 +21,6 @@ app.post('/posts', (req,res) => {
     res.status(201).send(posts[id]);
 });
 
-app.listen(4000, () => {
-    console.log('Listening on 4000')
+app.listen(4001, () => {
+    console.log('Listening on 4001')
 });

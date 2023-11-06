@@ -20,6 +20,10 @@
           {
             "name": "event-bus",
             "commands": ["cd ./event-bus/", "npm start"]
+          },
+          {
+            "name": "query",
+            "commands": ["cd ./query/", "npm start"]
           }
         ]
       }

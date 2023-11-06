@@ -1,0 +1,27 @@
+{
+    "artificialDelayMilliseconds": 700,
+    "keepExistingTerminalsOpen": false,
+    "runOnStartup": true,
+    "terminals": [
+      {
+        "splitTerminals": [
+          {
+            "name": "client",
+            "commands": ["cd ./client/", "npm start"]
+          },
+          {
+            "name": "posts",
+            "commands": ["cd ./posts/", "npm start"]
+          },
+          {
+            "name": "comments",
+            "commands": ["cd ./comments/", "npm start"]
+          },
+          {
+            "name": "event-bus",
+            "commands": ["cd ./event-bus/", "npm start"]
+          }
+        ]
+      }
+    ]
+  }

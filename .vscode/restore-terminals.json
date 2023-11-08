@@ -24,6 +24,10 @@
           {
             "name": "query",
             "commands": ["cd ./query/", "npm start"]
+          },
+          {
+            "name": "moderation",
+            "commands": ["cd ./moderation/", "npm start"]
           }
         ]
       }

@@ -1,0 +1,13 @@
+Sure! Here are some basic command line commands for working with Kubernetes:
+
+kubectl get pods: Lists all the pods in the current namespace.
+kubectl get deployments: Lists all the deployments in the current namespace.
+kubectl get services: Lists all the services in the current namespace.
+kubectl get nodes: Lists all the nodes in the cluster.
+kubectl create: Creates a resource from a file or stdin.
+kubectl apply -f: Applies a configuration to a resource.
+kubectl delete: Deletes a resource by file name, stdin, resource and name, or by resources and label selector.
+kubectl describe: Shows detailed information about a resource.
+kubectl logs: Prints the logs for a container in a pod.
+kubectl exec -it: Executes a command in a container.
+kubectl port-forward: Forwards one or more local ports to a pod.

@@ -1,5 +1,8 @@
 Sure! Here are some basic command line commands for working with Kubernetes:
 
+docker build -t <name> .
+docker push <name>
+
 kubectl get pods: Lists all the pods in the current namespace.
 kubectl get deployments: Lists all the deployments in the current namespace.
 kubectl get services: Lists all the services in the current namespace.

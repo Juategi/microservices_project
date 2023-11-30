@@ -14,3 +14,4 @@ kubectl describe: Shows detailed information about a resource.
 kubectl logs: Prints the logs for a container in a pod.
 kubectl exec -it: Executes a command in a container.
 kubectl port-forward: Forwards one or more local ports to a pod.
+kubectl rollout restart deployment <name>

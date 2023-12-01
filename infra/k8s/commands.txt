@@ -15,3 +15,5 @@ kubectl logs: Prints the logs for a container in a pod.
 kubectl exec -it: Executes a command in a container.
 kubectl port-forward: Forwards one or more local ports to a pod.
 kubectl rollout restart deployment <name>
+
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.2/deploy/static/provider/cloud/deploy.yaml
